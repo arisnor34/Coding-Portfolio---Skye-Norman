@@ -1,0 +1,34 @@
+.location {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+}
+.headshot-img {
+  max-height: 142px;
+}
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.page-content {
+  position: relative;
+  top: 200px;
+}
+.section-title {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.section-title-2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  padding-bottom: 15px;
+  padding-left: 35px;
+}
+.see-more-link {
+  font-family: "Dosis", sans-serif;
+  padding-right: 85px;
+  padding-top: 18px;
+}
