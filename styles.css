@@ -106,7 +106,7 @@ svg.bi-arrow-bar-right {
 
 .contact-section {
   background: var(--tertiary-color);
-  margin: 130px;
+  margin: 130px auto;
   max-width: 620px;
   max-height: 400px;
   border-radius: 10px;
