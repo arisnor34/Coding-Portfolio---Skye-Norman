@@ -86,8 +86,7 @@ a.see-more-link {
 .container-cert,
 .container-educ {
   max-width: 960px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 100px auto;
 }
 
 .row {
@@ -152,7 +151,6 @@ svg.bi-arrow-bar-right {
   .container-cert,
   .container-educ {
     max-width: 960px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 20px;
   }
 }
