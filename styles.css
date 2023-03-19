@@ -83,7 +83,8 @@ a.see-more-link {
   color: var(--accent-color);
 }
 
-.container-cert {
+.container-cert,
+.container-educ {
   max-width: 960px;
   margin-left: 100px;
 }
@@ -146,5 +147,10 @@ svg.bi-arrow-bar-right {
   .page-content {
     position: relative;
     top: 110px;
+  }
+  .container-cert,
+  .container-educ {
+    max-width: 960px;
+    margin-left: 50px;
   }
 }
