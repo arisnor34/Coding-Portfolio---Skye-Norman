@@ -2,42 +2,51 @@
   --primary-color: #70d5d2;
   --secondary-color: #d3f8e2;
   --accent-color: #fe729b;
-  --tertiary-color: #feeaae;
+  --tertiary-color: #fff5d7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .location {
   font-family: "Dosis", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: right;
 }
+
 .headshot-img {
   max-height: 142px;
 }
-h1 {
+
+h1,
+h3 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
   font-size: 45px;
 }
+
 .page-content {
   position: relative;
   top: 200px;
 }
+
 .section-title {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  font-size: 35px;
 }
+
 .section-title-2 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
-  padding-bottom: 15px;
-  padding-left: 35px;
+  padding-bottom: 5px;
+  font-size: 25px;
 }
+
 .see-more-container {
-  padding-right: 95px;
   padding-top: 18px;
 }
+
 a.see-more-link {
   font-family: "Dosis", sans-serif;
   color: var(--accent-color);
@@ -66,9 +75,59 @@ a.see-more-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
+.cert-link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: var(--accent-color);
+}
+
+.container-cert {
+  max-width: 960px;
+  margin-left: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-md-6 {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px;
+}
+
 svg.bi-geo-fill,
 svg.bi-arrow-bar-right {
   color: var(--accent-color);
+}
+
+.contact-section {
+  background: var(--tertiary-color);
+  margin: 130px;
+  max-width: 620px;
+  max-height: 400px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.email-link,
+.linkedin {
+  display: flex;
+  justify-content: center;
+  color: var(--accent-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover,
+.linkedin:hover,
+.cert-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
 }
 
 @media (max-width: 800px) {
@@ -77,5 +136,15 @@ svg.bi-arrow-bar-right {
   }
   .location {
     font-size: 12px;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .contact-section {
+    margin: 20px;
+  }
+  .page-content {
+    position: relative;
+    top: 110px;
   }
 }
