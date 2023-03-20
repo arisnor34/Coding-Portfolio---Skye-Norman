@@ -153,4 +153,7 @@ svg.bi-arrow-bar-right {
     max-width: 960px;
     margin: 20px;
   }
+  h1.hello-text {
+    font-size: 40px;
+  }
 }
