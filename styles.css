@@ -76,6 +76,44 @@ a.see-more-link {
   border: 1px solid var(--primary-color);
 }
 
+#centered-btn {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.btn-branding1 {
+  font-family: "Dosis", sans-serif;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.btn-branding2 {
+  font-family: "Dosis", sans-serif;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: black;
+}
+
+.btn-branding1:hover {
+  background: var(--primary-color);
+  color: black;
+}
+
+.btn-branding2:hover {
+  background: var(--accent-color);
+  color: white;
+}
+
 .cert-link {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -103,6 +141,14 @@ a.see-more-link {
 svg.bi-geo-fill,
 svg.bi-arrow-bar-right {
   color: var(--accent-color);
+}
+.responsive-p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p.responsive-p {
+  text-indent: 3em;
 }
 
 .contact-section {
@@ -155,5 +201,9 @@ svg.bi-arrow-bar-right {
   }
   h1.hello-text {
     font-size: 40px;
+  }
+  .responsive-p {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
