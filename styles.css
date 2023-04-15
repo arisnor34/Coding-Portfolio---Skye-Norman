@@ -27,6 +27,8 @@ h3 {
 .page-content {
   position: relative;
   top: 200px;
+  margin-left: 177px;
+  margin-right: 177px;
 }
 
 .section-title {
@@ -193,6 +195,8 @@ p.responsive-p {
   .page-content {
     position: relative;
     top: 110px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .container-cert,
   .container-educ {
@@ -211,5 +215,17 @@ p.responsive-p {
   }
   h6.inq-tagline {
     font-size: 20px;
+  }
+  .proj-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .mt-small {
+    margin-top: 0.5rem;
+  }
+  .btn-branding2,
+  .btn-branding1 {
+    display: block;
+    max-width: 50%;
   }
 }
