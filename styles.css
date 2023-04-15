@@ -206,4 +206,10 @@ p.responsive-p {
     padding-left: 5%;
     padding-right: 5%;
   }
+  h1.work-inq {
+    font-size: 30px;
+  }
+  h6.inq-tagline {
+    font-size: 20px;
+  }
 }
