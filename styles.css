@@ -223,9 +223,4 @@ p.responsive-p {
   .mt-small {
     margin-top: 0.5rem;
   }
-  .btn-branding2,
-  .btn-branding1 {
-    display: block;
-    max-width: 50%;
-  }
 }
