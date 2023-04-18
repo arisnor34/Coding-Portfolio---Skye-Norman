@@ -52,7 +52,7 @@ h3 {
 a.see-more-link {
   font-family: "Dosis", sans-serif;
   color: var(--accent-color);
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -106,6 +106,15 @@ a.see-more-link {
   color: black;
 }
 
+.btn-branding3 {
+  font-family: "Dosis", sans-serif;
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+}
 .btn-branding1:hover {
   background: var(--primary-color);
   color: black;
@@ -116,6 +125,10 @@ a.see-more-link {
   color: white;
 }
 
+.btn-branding3:hover {
+  background: var(--secondary-color);
+  color: black;
+}
 .cert-link {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
